@@ -1,0 +1,53 @@
+#include <stdio.h> to start c programmng 
+
+int main() {
+   /* printf() function to write Hello, World! */
+   printf( "Hello, World!" );
+}
+
+
+#include <stdio.h>
+
+int main() {
+   int a;
+   int b;
+   
+   a = 10;
+   b = 20;
+   
+   printf( "Value of a = %d\n", a );
+   printf( "Value of b = %d\n", b );
+}
+
+Java syntax
+
+public class HelloWorld { 
+   public static void main(String []args) {
+      /* println() function to write Hello, World! */
+      System.out.println("Hello, World!");     
+   }
+}
+
+
+public class DemoJava {
+   public static void main(String []args) {
+      int a;
+      int b;
+   
+      a = 10;
+      b = 20;
+   
+      System.out.println("Value of a = " + a);
+      System.out.println("Value of b = " + b);
+      System.out.println("Value of a = " + a + " and value of b = " + b);     
+   }
+}
+
+Python
+#  print function to write Hello, World! */
+print "Hello, World!"
+
+
+Value of a =  10
+Value of b =  20
+Value of a =  10  and value of b =  20
